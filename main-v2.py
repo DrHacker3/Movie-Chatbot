@@ -7,7 +7,11 @@ def movie_chatbot():
 
         if rating == "G":
             print(f"Here are some movie choices for rating G:")
-            print("1. finding nemo, 2. toy story, 3. the lion king, 4. coco, 5. moana")
+            print(f"""1. finding nemo
+2. toy story 
+3. the lion king 
+4. coco
+5. moana""")
 
             movie = input("Enter the number of the movie you want to watch: ")
             if movie == "1":
@@ -27,7 +31,11 @@ def movie_chatbot():
                 
         if rating == "PG":
             print(f"Here are some movie choices for rating PG:")
-            print("1. the incredibles, 2. up, 3. zootopia, 4. frozen, 5. inside out")
+            print(f"""1. the incredibles
+2. up
+3. zootopia
+4. frozen
+5. inside out""")
 
             movie = input("Enter the number of the movie you want to watch: ")
             if movie == "1":
@@ -47,7 +55,11 @@ def movie_chatbot():
             
         if rating == "M":
             print(f"Here are some movie choices for rating M:")
-            print("1. The Avengers, 2. the dark knight, 3. Inception, 4. interstellar, 5. gladiator")
+            print(f"""1. The Avengers
+2. the dark knight
+3. Inception
+4. interstellar
+5. gladiator""")
 
             movie = input("Enter the number of the movie you want to watch: ")
             if movie == "1":
@@ -67,7 +79,11 @@ def movie_chatbot():
                 
         if rating == "MA15+":
             print(f"Here are some movie choices for rating MA15+:")
-            print("1. Fight club, 2. pulp Fiction, 3. The Departed, 4. The Matrix, 5. Black swan")
+            print(f"""1. Fight club
+2. pulp Fiction
+3. The Departed
+4. The Matrix
+5. Black swan""")
 
             movie = input("Enter the number of the movie you want to watch: ")
             if movie == "1":
@@ -87,7 +103,11 @@ def movie_chatbot():
                 
         if rating == "R":
             print(f"Here are some movie choices for rating R:")
-            print("1. Scarface, 2. Goodfellas, 3. Reservoir Dogs, 4. The godfather, 5. taxi driver")
+            print(f"""1. Scarface
+2. Goodfellas
+3. Reservoir Dogs
+4. The godfather
+5. taxi driver""")
 
             movie = input("Enter the number of the movie you want to watch: ")
             if movie == "1":
@@ -111,7 +131,13 @@ def movie_chatbot():
         
         
 def Snack():
-    snack = input("Here are the snack choices: 1. popcorn, 2. Nachos, 3. Candy, 4. ice cream, 5. Soda. Enter the number of the snack you want to eat: ")
+    snack = input(f"""Here are the snack choices: 
+1. popcorn
+2. Nachos
+3. Candy
+4. ice cream
+5. Soda. 
+Enter the number of the snack you want to eat: """)
     if snack == "1":
         print("You selected popcorn as your snack. Enjoy!")
     
