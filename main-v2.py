@@ -107,6 +107,7 @@ def movie_chatbot():
         
         Snack()
         print("Thank you for using the Movie Selector Chatbot. Enjoy your movie!")
+        exit()
         
         
 def Snack():
