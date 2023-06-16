@@ -1,10 +1,15 @@
+# Creating a function for the chatbot
 def movie_chatbot():
     print("Welcome to the Movie Selector Chatbot!")
     print("I can help you select a movie to watch and suggest snacks.")
     print("Please answer the following questions.")
+    
+    # Loop for the chatbot
     while True:
+        # Ask the user what rating they want to see
         rating = input("What movie rating do you prefer? (G/PG/M/MA15+/R): ")
 
+        # Movie choices for each rating
         if rating == "G":
             print(f"Here are some movie choices for rating G:")
             print(f"""1. finding nemo
@@ -129,7 +134,7 @@ def movie_chatbot():
         print("Thank you for using the Movie Selector Chatbot. Enjoy your movie!")
         exit()
         
-        
+# Asking the user for a snack choice        
 def Snack():
     snack = input(f"""Here are the snack choices: 
 1. popcorn
